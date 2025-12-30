@@ -1,0 +1,7 @@
+name = "Example Mod"
+author = "Test"
+prefix = "mti"
+mainprefix = "z"
+
+[hemtt.release]
+archive = false # Default: true
