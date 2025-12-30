@@ -1,10 +1,12 @@
-class GVAR(Base_Mag): JLTS_DC15A_mag
-{
+class GMAG(Base): CA_Magazine {
+	scope = 1;
 	author = AUTHOR;
-	count = 10;
-	displayName = "(SOB) Base Magazines";
-	displayNameShort = "Energy Cell";
-	descriptionShort = "Base magazine used by the SOB EC";
-	ammo = QGVAR(Base_Ammo);
-	tracersevery = 1;
+	displayName = "[SOB] Base Magazine";
+	displayNameShort = "Base";
+	descriptionShort = "Base magazine for MTI weapons";
+	count = 30;
+	initSpeed = 700;
+	mass = 10;
+	tracersEvery = 1;
+	ammo = QGAMMO(Base);
 };

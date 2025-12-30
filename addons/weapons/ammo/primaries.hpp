@@ -1,17 +1,27 @@
-class GVAR(Base_Ammo): JLTS_bullet_carbine_blue
+class GAMMO(Base): B_338_Ball
 {
 	author = AUTHOR;
-
-	model = "ls_weapons_core\Effects\laser_blue.p3d";
-	effectfly = "ls_plasma_blue";
-	ExplosionEffects = "ls_plasma_impact";
-	cratereffects = "ls_plasma_impact";
-
-	caliber = 1;
-	hit = 12;
-	tracerscale = 0.9;
-	brightness = 400;
+	cartridge = "";
+	lightcolor[] = {0.25,0.25,0.5};
+	flaresize = 5;
+	tracerscale = 1.1;
+	effectflare = "FlareShell";
+	tracerstarttime = 0.05;
+	tracerendtime = 30;
+	initTime = 0;
+	nvgonly = 0;
+	airlock = 1;
+	irtarget = 1;
+	brightness = 1000;
+	timetolive = 20;
 	airfriction = 0;
-	coefgravity = 0.001;
+	coefgravity = 0;
 	deflecting = 0;
+	caliber = 1;
+	hit = 10;
+	dangerRadiusHit=12;
+	dangerRadiusBulletClose=8;
+	suppressionRadiusHit=8;
+	suppressionRadiusBulletClose=6;
+	aiAmmoUsageFlags=64;
 };
