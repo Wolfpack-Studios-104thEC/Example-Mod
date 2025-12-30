@@ -18,7 +18,7 @@ class CfgMods {
     class PREFIX {
         dir = "@Example Mod";
         name = "Example Mod";
-        picture = Filepathhere;
+        picture = "Filepathhere";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
